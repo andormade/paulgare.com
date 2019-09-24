@@ -4,5 +4,15 @@
 }
 
 .main img {
+	display: block;
 	width: 100%;
+}
+
+.two:after {
+	clear: both;
+}
+
+.two img {
+	width: 50%;
+	float: left;
 }
