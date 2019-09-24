@@ -1,6 +1,10 @@
+html, body {
+	background: #111111;
+}
+
 .main {
 	margin: 0 auto;
-	width: 70%;
+	width: 60%;
 }
 
 .age-verification {
