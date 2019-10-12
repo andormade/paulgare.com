@@ -8,6 +8,9 @@ h1 {
 	font-family: 'Libre Barcode 128 Text', monospace;
 	font-weight: normal;
 	font-size: 4em;
+	margin: 0;
+	padding: 1em 0;
+	line-height: 1;
 }
 
 aside {
@@ -26,6 +29,7 @@ nav a {
 	font-size: 4em;
 	text-decoration: none;
 	text-decoration-color: red;
+	line-height: 1;
 }
 
 nav a:hover {
