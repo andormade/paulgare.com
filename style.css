@@ -5,11 +5,8 @@ html, body {
 }
 
 h1 {
-	font-family: 'Libre Barcode 128 Text', monospace;
-	font-weight: normal;
-	font-size: 4em;
 	margin: 0;
-	padding: 1em 0;
+	padding: 4rem 0;
 	line-height: 1;
 }
 
@@ -20,20 +17,31 @@ aside {
 	left: 0;
 }
 
+.barcode {
+		color: black;
+	text-decoration: none;
 
-nav a {
-	color: black;
 	display: block;
 		font-family: 'Libre Barcode 128 Text', monospace;
 	font-weight: normal;
-	font-size: 4em;
-	text-decoration: none;
+	font-size: 4rem;
 	text-decoration-color: red;
 	line-height: 1;
 }
 
-nav a:hover {
+.barcode:hover {
 	text-decoration-line: line-through;
+}
+
+.barcode span {
+	position: absolute;
+	display: none;
+	font-family: monospace;
+	font-size: 1rem;
+}
+
+.barcode:hover span {
+	display: block;
 }
 
 .main {
