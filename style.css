@@ -1,14 +1,39 @@
 html, body {
-	background: #111111;
+	background: white;
+	padding: 0;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Libre Barcode 128 Text', monospace;
+	font-weight: normal;
+	font-size: 4em;
+}
+
+aside {
+	padding: 1%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+nav a {
+	color: black;
+	display: block;
+		font-family: 'Libre Barcode 128 Text', monospace;
+	font-weight: normal;
+	font-size: 4em;
+	text-decoration: none;
+	text-decoration-color: red;
+}
+
+nav a:hover {
+	text-decoration-line: line-through;
 }
 
 .main {
-	margin: 0 auto;
-	width: 60%;
-}
 
-.age-verification {
-	text-align: center;
 }
 
 .main img {
@@ -16,11 +41,28 @@ html, body {
 	width: 100%;
 }
 
-.two:after {
-	clear: both;
+.photo {
+	padding: 1% 0;
+	width: 40%;
+	position: relative;
 }
 
-.two img {
-	width: 50%;
-	float: left;
+.photo:nth-of-type(1) {
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
+.photo:nth-of-type(2) {
+	padding-left: 15%;
+	padding-right: 35%;
+}
+
+.photo:nth-of-type(3) {
+	padding-left: 18%;
+	padding-right: 22%;
+}
+
+.photo:nth-of-type(4) {
+	padding-left: 21%;
+	padding-right: 19%;
 }
