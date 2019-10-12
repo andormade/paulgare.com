@@ -40,7 +40,7 @@ aside {
 	font-size: 1rem;
 }
 
-.barcode:hover span {
+.barcode:hover span, .barcode:active span {
 	display: block;
 }
 
