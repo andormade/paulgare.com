@@ -97,6 +97,14 @@ input {
 	padding-left: 23%;
 }
 
+.photo:nth-of-type(5) {
+	padding-left: 29%;
+}
+
+.photo:nth-of-type(6) {
+	padding-left: 24%;
+}
+
 @media (max-width: 500px) {
 	.photo {
 		width: 80%;	
@@ -116,6 +124,14 @@ input {
 
 	.photo:nth-of-type(4) {
 		padding-left: 13%;
+	}
+
+	.photo:nth-of-type(5) {
+		padding-left: 9%;
+	}
+
+	.photo:nth-of-type(6) {
+		padding-left: 12%;
 	}
 
 	aside {
