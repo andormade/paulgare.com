@@ -11,11 +11,12 @@ h1 {
 }
 
 aside {
-	padding: 1rem;
+	padding: 0;
 	padding-top: 4rem;
 	position: absolute;
 	top: 0;
 	left: 0;
+	z-index: 1;
 }
 
 nav {
@@ -37,6 +38,7 @@ a {
 	line-height: 1;
 	cursor: pointer;
 	-webkit-tap-highlight-color: rgba(255,0,0,0.5);
+	padding: 0 1rem;
 }
 
 .barcode:hover {
@@ -94,3 +96,40 @@ input {
 .photo:nth-of-type(4) {
 	padding-left: 23%;
 }
+
+@media (max-width: 500px) {
+	.photo {
+		width: 80%;	
+	}
+
+	.photo:nth-of-type(1) {
+		padding-left: 10%;
+	}
+
+	.photo:nth-of-type(2) {
+		padding-left: 15%;
+	}
+
+	.photo:nth-of-type(3) {
+		padding-left: 17%;
+	}
+
+	.photo:nth-of-type(4) {
+		padding-left: 13%;
+	}
+
+	aside {
+		position: relative;
+		padding-top: 1rem;
+		padding-bottom: 2rem;
+	}
+
+	nav {
+		padding-top: 1rem;
+	}
+
+	.barcode {
+		display: inline-block;
+	}
+}
+
