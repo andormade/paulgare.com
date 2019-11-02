@@ -105,6 +105,10 @@ input {
 	padding-left: 24%;
 }
 
+.photo:nth-of-type(7) {
+	padding-left: 27%;
+}
+
 @media (max-width: 500px) {
 	.photo {
 		width: 80%;	
@@ -132,6 +136,10 @@ input {
 
 	.photo:nth-of-type(6) {
 		padding-left: 12%;
+	}
+
+	.photo:nth-of-type(7) {
+		padding-left: 10%;
 	}
 
 	aside {
