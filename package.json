@@ -1,0 +1,23 @@
+{
+  "name": "paulgare.com",
+  "version": "1.0.0",
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/9eaa85cb-c064-479b-a01a-678bc8600473/deploy-status)](https://app.netlify.com/sites/paulgare/deploys)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel index.html film.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andormade/paulgare.com.git"
+  },
+  "author": "Andor Polgar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andormade/paulgare.com/issues"
+  },
+  "homepage": "https://github.com/andormade/paulgare.com#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
